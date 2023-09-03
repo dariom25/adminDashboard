@@ -29,6 +29,9 @@ body{
     border: 1px solid black;
     grid-area: 1/2;
     background-color: white;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .main-content{
