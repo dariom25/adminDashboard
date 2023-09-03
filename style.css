@@ -32,16 +32,30 @@ body{
 
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding-left: 2vw;
 }
 
 .user-interface{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: center;
+    border: 1px solid black;
+    gap: 1vw;
+}
+
+.searchbar{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
 }
 
 .nav-bar{
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+
+.user-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 
 .main-content{
