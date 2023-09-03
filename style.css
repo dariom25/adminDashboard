@@ -34,6 +34,16 @@ body{
     grid-template-rows: 1fr 1fr;
 }
 
+.user-interface{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .main-content{
     border: 1px solid black;
     grid-area: 2/2/3/3;
