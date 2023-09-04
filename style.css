@@ -64,9 +64,20 @@ body{
 .nav-bar{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-right: 3vw;
+    align-items: center;
 }
 
+.greeting{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
 
+.nav-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
 
 .main-content{
     border: 1px solid black;
