@@ -48,15 +48,25 @@ body{
     grid-template-columns: 1fr 10fr;
 }
 
+.user-info{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    align-items: center;
+}
+
 .nav-bar{
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-.user-info{
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-}
+
 
 .main-content{
     border: 1px solid black;
