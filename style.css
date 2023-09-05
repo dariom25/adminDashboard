@@ -114,4 +114,8 @@ body{
 .main-content{
     border: 1px solid black;
     grid-area: 2/2/3/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 1vw;
 }
+
