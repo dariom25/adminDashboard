@@ -1,17 +1,19 @@
 body{
-    background-color: rgb(176, 240, 240);
+    background-color: lightgray;
     font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    height: 100vh;
 }
 
 .sidebar{
-    grid-area: 1/1/3/2;
+    grid-area: 1/1/3/2; /*text von sidebar zieht sich über den gesamten bildschirm. Warum?*/
     display: grid;
-    gap: 10px;
     padding-left: 15px;
     background-color: rgb(69, 133, 155);
     color: white;
@@ -112,10 +114,38 @@ body{
 }
 
 .main-content{
-    border: 1px solid black;
     grid-area: 2/2/3/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-left: 1vw;
+    padding-bottom: 7vh;
+    gap: 1vw;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: span 2/1;
+    gap: 1vw;
+}
+
+.projects>p{
+    grid-area: 1/span 2;
+    padding: 0px;
+    margin: 0px;
+}
+
+.project-card{
+    background-color: white;
+}
+
+.announcements{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: 1/2;
+}
+
+.trending{
+    grid-area: 2/2;
 }
 
