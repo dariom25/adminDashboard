@@ -117,32 +117,78 @@ body{
     grid-area: 2/2/3/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    
     padding-left: 1vw;
     padding-bottom: 7vh;
     gap: 1vw;
+    padding-right: 2vw;
 }
 
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 3fr 3fr;
     grid-area: span 2/1;
     gap: 1vw;
+    margin-top: 10px;
 }
 
 .projects>p{
     grid-area: 1/span 2;
     padding: 0px;
     margin: 0px;
+    font-size: 1.5vw;
+    font-weight: 500;
 }
 
 .project-card{
     background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+    gap: 1vw;
+    box-shadow: 0 0.5px 18px -20px;
+    width: 30vw;
+}
+
+.project-card>div{
+    background-color: rgb(255, 187, 0);
+    grid-area: 1/1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.project-title{
+    grid-area: 1/2;
+    font-size: 1vw;
 }
 
 .announcements{
     display: grid;
     grid-template-columns: 1fr;
     grid-area: 1/2;
+
+    gap: 1vw;
+    margin-top: 10px;
+}
+
+.announcements>p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.announcements-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcements-card>div{
+    border-bottom: 1px solid gray;
 }
 
 .trending{
